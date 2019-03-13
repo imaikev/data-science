@@ -10,6 +10,11 @@ PORT = 8080
 # initialize flask application
 app = Flask(__name__)
 
+@app.route('/')
+def inicio:
+    return "Running OK..."
+ 
+
 
 @app.route('/api/train', methods=['POST'])
 def train():
