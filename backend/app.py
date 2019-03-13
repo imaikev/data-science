@@ -11,8 +11,8 @@ PORT = 8080
 app = Flask(__name__)
 
 @app.route('/')
-def inicio:
-    return "Running OK..."
+def inicio():
+    return "Backend is running OK..."
  
 
 
