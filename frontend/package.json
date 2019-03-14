@@ -2,10 +2,9 @@
     "name": "Data-Science-Web-App",
     "version": "1.0.0",
     "scripts": {
-        "ng": "ng",
         "start": "ng serve --proxy-config proxy.conf.json",
         "build": "ng build",
-        "postinstall": "ng build --prod"
+        "postinstall": "ng build --aot -prod"
     },
     "dependencies": {
         "@angular/cli": "^7.3.5",
