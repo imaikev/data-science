@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "name": "Data-Science-Web-App",
     "version": "1.0.0",
@@ -35,35 +34,3 @@
     "@angular-devkit/build-angular": "latest"
   }
 }
-=======
-{
-    "name": "Data-Science-Web-App",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "ng serve --proxy-config proxy.conf.json",
-        "build": "ng build",
-        "postinstall": "ng build --aot -prod"
-    },
-    "dependencies": {
-        "@angular/cli": "^5.2.9" ,
-        "@angular/animations": "^4.0.0",
-        "@angular/cdk": "^5.2.9",
-        "@angular/common": "^4.0.0",
-        "@angular/compiler": "^4.0.0",
-        "@angular/core": "^4.0.0",
-        "@angular/flex-layout": "2.0.0-beta.8",
-        "@angular/forms": "^4.0.0",
-        "@angular/http": "^4.0.0",
-        "@angular/material": "2.0.0-beta.8",
-        "@angular/platform-browser": "^4.0.0",
-        "@angular/platform-browser-dynamic": "^4.0.0",
-        "@angular/router": "^4.0.0",
-        "@swimlane/ngx-charts": "6.1.0",
-        "core-js": "^2.4.1",
-        "d3": "^4.13.0",
-        "hammerjs": "^2.0.8",
-        "rxjs": "^5.4.1",
-        "zone.js": "^0.8.14"
-    } 
-}
->>>>>>> 583e699a2dab3b7b269fcf27f1d295bfec0af090
