@@ -4,6 +4,7 @@
     "scripts": {
         "start": "ng serve --proxy-config proxy.conf.json",
         "build": "ng build",
+        "preinstall": "npm install @angular/cli @angular/compiler-cli typescript",
         "postinstall": "ng build --aot -prod"
     },
     "dependencies": {
@@ -27,7 +28,8 @@
         "rxjs": "latest",
     "tslib": "latest",
         "zone.js": "latest"
-    } ,
+    } 
+,
   "devDependencies": {
    "@angular/cli": "latest",
     "typescript": "latest",
