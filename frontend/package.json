@@ -10,7 +10,8 @@
     "dependencies": {
         "@angular/animations": "latest",
         "@angular/cdk": "latest",
-        "@angular/common": "latest"
+        "@angular/common": "latest",
+        "rxjs": "latest"
     } 
 ,
   "devDependencies": {
