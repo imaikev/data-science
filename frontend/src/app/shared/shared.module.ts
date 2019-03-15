@@ -7,9 +7,9 @@ import {
     MatButtonModule, MatCardModule, MatIconModule, MatInputModule, MatListModule, MatSidenavModule, MatToolbarModule,
     MatTooltipModule, MatProgressBarModule, MatSlideToggleModule, MatDialogModule, MatMenuModule, MatSliderModule,
     MatTabsModule, MatCheckboxModule, MatRadioModule, MatChipsModule, MatDatepickerModule, MatNativeDateModule, MatTableModule,
-    MatCoreModule, MatSortModule, MatPaginatorModule
+    MatSortModule, MatPaginatorModule
 } from "@angular/material";
-import {CdkTableModule} from "@angular/cdk";
+
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {MainLayoutModule} from "./layouts/main-layout/main-layout.module";
@@ -44,8 +44,6 @@ import {MainLayoutModule} from "./layouts/main-layout/main-layout.module";
         MatDatepickerModule,
         MatNativeDateModule,
         MatTableModule,
-        CdkTableModule,
-        MatCoreModule,
         MatSortModule,
         MatPaginatorModule,
         // Chart module
@@ -82,8 +80,6 @@ import {MainLayoutModule} from "./layouts/main-layout/main-layout.module";
         MatDatepickerModule,
         MatNativeDateModule,
         MatTableModule,
-        CdkTableModule,
-        MatCoreModule,
         MatSortModule,
         // Chart module
         NgxChartsModule,
