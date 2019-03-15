@@ -8,7 +8,8 @@
         "postinstall": "ng build --prod=true --progress=true"
     },
     "dependencies": {
-      "@angular/core": "latest",       
+      "@angular/core": "latest",
+       "@angular/compiler":"latest",
       "rxjs": "latest"
     } 
 ,
