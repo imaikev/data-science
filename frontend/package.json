@@ -10,6 +10,8 @@
     "dependencies": {
         "@angular/animations": "latest",
         "@angular/cdk": "latest",
+        "@angular/compiler": "latest",
+        "core-js": "latest",
         "@angular/common": "latest",
         "rxjs": "latest"
     } 
