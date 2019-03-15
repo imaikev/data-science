@@ -8,13 +8,8 @@
         "postinstall": "ng build --prod=true --progress=true"
     },
     "dependencies": {
-        "@angular/animations": "latest",
-        "@angular/cdk": "latest",
-        "@angular/compiler": "latest",
-        "@angular/core": "latest",
-        "core-js": "latest",
-        "@angular/common": "latest",
-        "rxjs": "latest"
+      "@angular/core": "latest",       
+      "rxjs": "latest"
     } 
 ,
   "devDependencies": {
