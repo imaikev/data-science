@@ -25,6 +25,7 @@
         "d3": "latest",
         "hammerjs": "latest",
         "rxjs": "latest",
+         "rxjs-compat": "latest",
         "tslib": "latest",
         "zone.js": "latest"
     } 
