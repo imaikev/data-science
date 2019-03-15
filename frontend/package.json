@@ -10,23 +10,7 @@
     "dependencies": {
         "@angular/animations": "latest",
         "@angular/cdk": "latest",
-        "@angular/common": "latest",
-        "@angular/compiler": "latest",
-        "@angular/core": "latest",
-        "@angular/flex-layout": "latest",
-        "@angular/forms": "latest",
-        "@angular/http": "latest",
-        "@angular/material": "latest",
-        "@angular/platform-browser": "latest",
-        "@angular/platform-browser-dynamic": "latest",
-        "@angular/router": "latest",
-        "@swimlane/ngx-charts": "latest",
-        "core-js": "latest",
-        "d3": "latest",
-        "hammerjs": "latest",
-        "rxjs": "latest",
-        "tslib": "latest",
-        "zone.js": "latest"
+        "@angular/common": "latest"
     } 
 ,
   "devDependencies": {
