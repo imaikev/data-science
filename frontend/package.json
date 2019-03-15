@@ -7,9 +7,9 @@
         "postinstall": "ng build --aot -prod"
     },
     "dependencies": {
-        "@angular/cli": ,
+        "@angular/cli": "^5.2.9" ,
         "@angular/animations": "^4.0.0",
-        "@angular/cdk": "^2.0.0-beta.8",
+        "@angular/cdk": "^5.2.9",
         "@angular/common": "^4.0.0",
         "@angular/compiler": "^4.0.0",
         "@angular/core": "^4.0.0",
