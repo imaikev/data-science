@@ -16,8 +16,8 @@
         "@angular/core": "latest",
         "@angular/flex-layout": "latest",
         "@angular/forms": "latest",
-        "@angular/http": "latest",
-        "@angular/material": "latest",
+        #"@angular/http": "latest",
+        #"@angular/material": "latest",
         "@angular/platform-browser": "latest",
         "@angular/platform-browser-dynamic": "latest",
         "@angular/router": "latest",
@@ -26,7 +26,7 @@
         "d3": "latest",
         "hammerjs": "latest",
         "rxjs": "latest",
-    "tslib": "latest",
+        "tslib": "latest",
         "zone.js": "latest"
     } 
 ,
