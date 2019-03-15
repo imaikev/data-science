@@ -5,7 +5,7 @@
         "start": "ng serve --proxy-config proxy.conf.json",
         "build": "ng build",
         "preinstall": "npm install @angular/cli @angular/compiler-cli typescript@3.1.6",
-        "postinstall": "ng build --prod"
+        "postinstall": "ng build --prod=true --progress=true"
     },
     "dependencies": {
         "@angular/animations": "latest",
