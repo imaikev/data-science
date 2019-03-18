@@ -5,13 +5,14 @@
         "start": "ng serve --proxy-config proxy.conf.json",
         "build": "ng build",
         "preinstall": "npm install @angular/cli @angular/compiler-cli typescript@3.1.6",
-        "postinstall": "ng build --prod=true"
+        "postinstall": "ng build"
     },
     "dependencies": {
         "@angular/animations": "latest",
         "@angular/cdk": "latest",
         "@angular/common": "latest",
         "@angular/compiler": "latest",
+        "@angular/compiler-cli": "^7.2.9",
         "@angular/core": "latest",
         "@angular/flex-layout": "latest",
         "@angular/forms": "latest",
@@ -22,17 +23,17 @@
         "@angular/router": "latest",
         "@swimlane/ngx-charts": "latest",
         "core-js": "latest",
-        "d3": "latest",
+        "d3": "^4.13.0",
         "hammerjs": "latest",
         "rxjs": "latest",
-         "rxjs-compat": "latest",
+        "rxjs-compat": "latest",
         "tslib": "latest",
+        "yarn": "latest",
         "zone.js": "latest"
-    } 
-,
-  "devDependencies": {
-   "@angular/cli": "latest",
-    "typescript": "3.1.6",
-    "@angular-devkit/build-angular": "latest"
-  }
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "latest",
+        "@angular/cli": "^7.3.6",
+        "typescript": "^3.1.6"
+    }
 }
