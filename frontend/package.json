@@ -1,5 +1,5 @@
 {
-    "name": "Data-Science-Web-App",
+    "name": "Data-Science",
     "version": "1.0.0",
     "scripts": {
         "start": "ng serve --proxy-config proxy.conf.json",
