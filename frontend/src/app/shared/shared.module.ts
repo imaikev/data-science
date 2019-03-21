@@ -9,7 +9,8 @@ import {
     MatTabsModule, MatCheckboxModule, MatRadioModule, MatChipsModule, MatDatepickerModule, MatNativeDateModule, MatTableModule,
     MatSortModule, MatPaginatorModule
 } from "@angular/material";
-
+import {MatInputModule} from '@angular/material/input';
+import {MatListModule} from '@angular/material/list';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {MainLayoutModule} from "./layouts/main-layout/main-layout.module";
