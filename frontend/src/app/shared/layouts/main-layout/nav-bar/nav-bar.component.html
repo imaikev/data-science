@@ -1,4 +1,4 @@
-<md-toolbar>
+<mat-toolbar>
     <div fxFlex fxLayout="row">
         <div fxFlex fxLayoutAlign="start center" class="cursor-pointer" routerLink="/">
             <img [src]="logoUrl" height="30">
@@ -17,12 +17,12 @@
             </button>
         </div>
     </div>
-</md-toolbar>
+</mat-toolbar>
 
-<md-menu #menu="mdMenu">
-    <button *ngFor="let item of menuItems" md-menu-item
+<mat-menu #menu="matMenu">
+    <button *ngFor="let item of menuItems" mat-menu-item
             [routerLink]="item.route"
             routerLinkActive="navigation-item-menu--active">
         <span>{{item.name}}</span>
     </button>
-</md-menu>
+</mat-menu>
