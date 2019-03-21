@@ -5,13 +5,13 @@
         <h3>Train Classification Model (Support Vector Machine)</h3>
         <mat-card fxLayoutAlign="center center" fxLayout="column">
             <h4>Set Parameter for Model Training</h4>
-            <md-input-container>
+            <mat-form-field>
                 <input
                     mdInput
                     name="C Parameter"
                     placeholder="C Parameter"
                     [(ngModel)]="svcParameters.C">
-            </md-input-container>
+            </mat-form-field>
             <button md-raised-button (click)="trainModel()">
                 Train model
             </button>
@@ -40,32 +40,32 @@
         <md-card fxLayoutAlign="center center" fxLayout="column">
             <h4>Define Iris</h4>
             <div fxLayout="row">
-                <md-input-container>
+                <mat-form-field>
                     <input mdInput
                            name="Sepal width"
                            placeholder="Sepal width"
                            [(ngModel)]="iris.sepalWidth">
-                </md-input-container>
-                <md-input-container>
+                </mat-form-field>
+                <mat-form-field>
                     <input mdInput
                            name="Sepal length"
                            placeholder="Sepal length"
                            [(ngModel)]="iris.sepalLength">
-                </md-input-container>
+                </mat-form-field>
             </div>
             <div fxLayout="row">
-                <md-input-container>
+                <mat-form-field>
                     <input mdInput
                            name="Petal width"
                            placeholder="Petal width"
                            [(ngModel)]="iris.petalWidth">
-                </md-input-container>
-                <md-input-container>
+                </mat-form-field>
+                <mat-form-field>
                     <input mdInput
                            name="Petal length"
                            placeholder="Petal length"
                            [(ngModel)]="iris.petalLength">
-                </md-input-container>
+                </mat-form-field>
             </div>
             <div>
                 <button mat-raised-button (click)="predictIris()">Predict iris</button>
