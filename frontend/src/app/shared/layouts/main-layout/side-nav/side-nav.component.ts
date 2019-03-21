@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {NavigationItem} from "../main-layout.types";
-import {MatListModule} from '@angular/material/list';
 
 @Component({
     selector: 'side-nav',
