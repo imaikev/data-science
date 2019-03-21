@@ -3,9 +3,8 @@
     "version": "1.0.0",
     "scripts": {
         "start": "ng serve",
-        "build": "ng build",
-        "preinstall": "npm install @angular/cli",
-        "postinstall": "ng build"
+        "build": "ng build --prod --aot",
+        "preinstall": "npm install @angular/cli"
     },
     "dependencies": {
         "@angular/animations": "latest",
